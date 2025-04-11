@@ -49,7 +49,7 @@ void AMasterMindGM::CreateSolution()
 bool AMasterMindGM::CheckAnswer(TArray<uint8> Answer)
 {
 	bool result = true;
-	uint8 GoodPlaces = 0;
+	uint8 GoodPlaces = 4;
 	uint8 WrongPlaces = 0;
 	TArray<bool> SolutionsAllowed {true,true,true,true};
 	TArray<bool> AnswersAllowed {true,true,true,true};
